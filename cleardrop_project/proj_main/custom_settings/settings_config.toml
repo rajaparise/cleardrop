@@ -1,0 +1,19 @@
+SECRET_KEY='&--g#=o#ri^v7n8txjtk7(j(*@n*7we3kx)vuzl@a^^%xedx7+'
+
+[LOGGING]
+LOG_FILE_PATH='/logs/'
+
+[DJANGO]
+OMS_ENV_URL = "http://localhost:8000/cd/"
+
+[DATABASES]
+DEFAULT_DB_USER_NAME="apps"
+DEFAULT_DB_USER_PASSWORD="apps"
+DEFAULT_DB_CONN_STRING="omsddb.cswg.com:1521/omsd_app"
+
+[CACHING]
+REDIS_HOST="gc-ue4-msrd-oms-prd01.prod.gcp.cswg.com"
+REDIS_PORT="6379"
+REDIS_AUTH="4363cef8-f29b-4418-9f0a-8004b5135f75"
+
+[APPLICATION_SETTINGS]
